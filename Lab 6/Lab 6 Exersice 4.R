@@ -16,5 +16,6 @@ student.finaldata <- rbind(student.data, student.newdata)
 
 print(str(student.finaldata))
 print(summary(student.finaldata))
+print(dim(student.finaldata))
 print(ncol(student.finaldata))
 print(nrow(student.finaldata))
